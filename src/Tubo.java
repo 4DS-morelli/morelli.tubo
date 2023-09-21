@@ -6,4 +6,9 @@ public class Tubo {
         this.altezza = altezza;
         this.raggio = raggio;
     }
+
+    public double volume(){
+        double area= 3.14*(raggio^2);
+        return altezza*area;
+    }
 }
