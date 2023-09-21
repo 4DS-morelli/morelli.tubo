@@ -11,4 +11,10 @@ public class Tubo {
         double area= 3.14*(raggio^2);
         return altezza*area;
     }
+
+    public double superficieTot(){
+        double area= 3.14*(raggio^2);
+        return (area*2+2*3.14*raggio*altezza);
+    }
+
 }
